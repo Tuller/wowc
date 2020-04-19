@@ -1,6 +1,6 @@
 # wowc
 
-A wrapper around the (BigWigs packager)[https://github.com/BigWigsMods/packager] 
+A wrapper around the [BigWigs packager](https://github.com/BigWigsMods/packager)
 so that I can copy an addon to different wow client addon folders
 
 ## What it does
