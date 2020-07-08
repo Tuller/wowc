@@ -76,9 +76,9 @@ pkg_cmd=
 if [[ $wow_classic ]]; then
 	# if we have a .pkgmeta specific to a client, use that one
 	if [ -f .pkgmeta-$wow_client ]; then
-		pkg_cmd="wowpkg -dlz -g 1.13.4 -m .pkgmeta-$wow_client"
+		pkg_cmd="wowpkg -dlz -g 1.13.5 -m .pkgmeta-$wow_client"
 	else
-		pkg_cmd="wowpkg -dlz -g 1.13.4"
+		pkg_cmd="wowpkg -dlz -g 1.13.5"
 	fi
 else
 	# if we have a .pkgmeta specific to a client, use that one
